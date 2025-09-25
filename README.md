@@ -11,6 +11,6 @@ The syms.toml file contains function definitions that the recompiler uses to fin
 
 Mods can submodule/subrepo this repo (or just copy the files from it) to provide to the mod builder. Commits of this repo are tied to commits of the decompilation project, so mods should use the correspoding decompilation commit in order to guarantee consistency between headers and symbol names. For more information, check out the [mod template](https://github.com/Zelda64Recomp/MMRecompModTemplate).
 
-The commit of the decompilation that these symbols were generated from can be found [here](https://github.com/zeldaret/mm/tree/385c45ad483502a03c6f93b81e5b1ed5e08281d0).
+The commit of the decompilation that these symbols were generated from can be found [here](https://github.com/zeldaret/mm/tree/3b3b117100edfc41adcd6f315b3772fc63e01e2e).
 
 Mods do not have to update these files to support newer versions of the recompilation project, as symbol names are discarded in the process of building a mod.
